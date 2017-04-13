@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Страны и города</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+
+	<div class="header">
+		<h2>Countries of the World</h2>
+	</div>
+
+	<div class="main">
+		<div class="countries"><h2>Countries</h2></div>
+
+		<!--Города-->
+
+		<div class="cities">
+			<h2>Cities</h2>
+
+			<!--Один город-->
+			<div class="wrapper">
+				<div id="formCity" style="display: none">
+					<input id="nameCity" type="text" required maxlength="50" autofocus placeholder="Country name...">
+					<textarea id="descr" name="text" cols="20" rows="8" placeholder="Country description..."></textarea>
+					<button class="submit" name="submit">Submit</button>
+					<button class="cansel" name="cancel">Cancel</button>
+				</div>
+
+				<button id="addCity" name="addCitys">+ Add city</button>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>&copy; Zamay Mitya</p>
+	</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+<script src="js/json1.js"></script>
+</body>
+</html>
+</html>
